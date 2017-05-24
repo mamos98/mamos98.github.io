@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: "Homemade Apple", cursive;
+  background-color: white;
+  background: -webkit-linear-gradient(#bebebe 0%, white 100%);
+  background: linear-gradient(#bebebe 0%, white 100%);
+}
+
+main {
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+}
+main #info {
+  display: block;
+  position: absolute;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  text-align: center;
+}
+main #info ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+main #info li {
+  margin: 0 5px;
+  display: inline-block;
+}
+main #info img.avatar {
+  height: 200px;
+  margin: 0 auto;
+  float: none;
+  display: block;
+  border-radius: 50%;
+  border: 0;
+  -webkit-transition: 1s all ease;
+  transition: 1s all ease;
+  border: 5px solid grey;
+}
+main #info img.avatar:hover {
+  border: 5px solid black;
+}
+
+section#projects {
+  text-align: center;
+  width: 100%;
+}
+section#projects ul {
+  list-style-type: none;
+  display: inline-block;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: 0.4s ease;
+  transition: 0.4s ease;
+}
+a:hover {
+  color: gray;
+}
